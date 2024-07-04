@@ -1,0 +1,92 @@
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    transition: top 0.3s ease-in-out; 
+}
+
+
+#home {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#home .carousel-caption {
+    top: 40%; 
+    transform: translateY(-40%);
+}
+
+
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+#services .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#services .card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
+
+#services .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#services .card-body .card-title {
+    margin-top: auto;
+}
+
+#services .card-body .btn {
+    margin-top: 20px;
+}
+
+
+#mission {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#mission img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.carousel {
+    padding-top: 56px; 
+    margin-top: -80px; 
+    overflow: hidden; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: calc(100vh - 56px); 
+    object-fit: cover;
+}
+
+
+.carousel-item .carousel-caption h1,
+.carousel-item .carousel-caption p {
+    font-size: 2.5rem; 
+    color: blue; 
+    font-family: 'Arial Black', Arial, sans-serif;
+}
